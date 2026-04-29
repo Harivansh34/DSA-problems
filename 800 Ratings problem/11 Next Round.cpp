@@ -21,7 +21,7 @@ int main()
     
     for(int i=0; i<n; i++)
     {
-            if(score[i]>=score[k-1] && score[i]>0)
+            if(score[i]>=score[k-1] && score[i]>0)  // always apply k-1 when we need position instead of k only because indexes start from from 0.
             {
                 count++;
             }
